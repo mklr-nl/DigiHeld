@@ -9,17 +9,8 @@
 }
 
 .content img {
-  margin-bottom: 90px;
+  margin-bottom: 70px;
   max-width: 70vw;
-}
-
-@media only screen and (max-width: 700px) {
-  .content img {
-    margin-bottom: 15px;
-  }
-
-  .content h3 {
-  }
 }
 
 .content h3 {
@@ -38,5 +29,9 @@
 
   .content h3 {
     font-size: 1.4rem;
+  }
+
+  .content img {
+    max-width: 90vw;
   }
 }
