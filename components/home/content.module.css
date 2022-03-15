@@ -1,18 +1,25 @@
 .content {
+  height: 100vh;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
-  left: 50%;
-  position: fixed;
-  text-align: center;
-  top: 50%;
-  transform: translate(-50%, -50%);
+  margin: 15px;
   color: white;
 }
 
 .content img {
   margin-bottom: 90px;
   max-width: 70vw;
+}
+
+@media only screen and (max-width: 700px) {
+  .content img {
+    margin-bottom: 15px;
+  }
+
+  .content h3 {
+  }
 }
 
 .content h3 {
@@ -22,4 +29,14 @@
 .info {
   max-width: 500px;
   text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+  .content img {
+    margin-bottom: 15px;
+  }
+
+  .content h3 {
+    font-size: 1.4rem;
+  }
 }
