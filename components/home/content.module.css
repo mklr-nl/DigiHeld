@@ -32,3 +32,9 @@
     margin: 15px;
   }
 }
+
+@media only screen and (max-width: 380px) {
+  .content {
+    margin-top: 10vh;
+  }
+}
