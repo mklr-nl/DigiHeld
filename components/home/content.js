@@ -5,7 +5,7 @@ function Content() {
   return (
     <div className={classes.content}>
       <div className={classes.img}>
-        <Image src="/images/digiheld-logo.png" width={1035} height={439} />
+        <img src="/images/digiheld-logo.png" alt="logo digiheld" />
       </div>
       <div className={classes.info}>
         <h3>Digital Product Development and Investment</h3>
