@@ -1,5 +1,4 @@
 import classes from "./content.module.css";
-import Image from "next/image";
 
 function Content() {
   return (
