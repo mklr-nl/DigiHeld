@@ -4,7 +4,14 @@ import Image from "next/image";
 function Content() {
   return (
     <div className={classes.content}>
-      <img src="/images/digiheld-logo.png" alt="" />
+      <div className={classes.img}>
+        <Image
+          src="/images/digiheld-logo.png"
+          alt="logo digiheld"
+          width={1035}
+          height={439}
+        />
+      </div>
       <div className={classes.info}>
         <h3>Digital Product Development and Investment</h3>
         <p>
