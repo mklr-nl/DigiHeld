@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <Fragment>
       <Head>
-        <title>DigiHeld</title>
+        <title>Digiheld | Digital Product Development and Investment</title>
         <meta
           name="description"
           content="Digital Product Development and Investment"
