@@ -4,7 +4,9 @@ function Footer() {
   return (
     <div className={classes.container}>
       <span>martijn@digiheld.nl</span>
-      <span>2022</span>
+      <span>
+        <span className={classes.icon}>©</span>2022
+      </span>
     </div>
   );
 }
