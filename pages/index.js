@@ -14,6 +14,7 @@ function HomePage() {
         />
         <meta
           name="description"
+          property="og:description"
           content="Digital products are programming code-based assets that deliver an interactive value proposition to the final user. ✓ Problem-solving Entrepreneurship"
         />
         <meta property="og:url" content="https://www.digiheld.nl/" />
